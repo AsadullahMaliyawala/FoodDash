@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/lgn"
+        android:layout_width="25dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/arrowback" />
+
+    <TextView
+        android:id="@+id/txtlgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lgn"
+        android:layout_marginTop="87dp"
+        android:fontFamily="@font/worksans"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+
+
+    <TextView
+        android:id="@+id/emailerr_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/txtlgn"
+        android:paddingLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        />
+
+    <EditText
+        android:id="@+id/Email_lgn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/emailerr_lgn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/roundbtnwhite"
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="13dp" />
+
+
+    <TextView
+        android:id="@+id/passerr_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/Email_lgn"
+        android:paddingLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        />
+
+    <EditText
+        android:id="@+id/Password_lgn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/passerr_lgn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/roundbtnwhite"
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/LoginBtn_lgn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Password_lgn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/worksans"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="40px"
+
+        />
+
+    <Button
+        android:id="@+id/forgot_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginBtn_lgn"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/worksans"
+        android:background="@color/transparent"
+        android:text="Forgot Password?"
+        android:textColor="@color/black" />
+
+
+
+</RelativeLayout>

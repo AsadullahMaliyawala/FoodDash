@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:context=".LoginRegister">
+
+    <ImageView
+        android:id="@+id/imagev1"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120px"
+        android:src="@drawable/tacomeal" />
+
+    <TextView
+        android:id="@+id/textviewmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagev1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:fontFamily="@font/worksans"
+        android:text="The world's number 1 \n app for fighting food waste."
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textviewmain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/worksans"
+        android:text="LogIn"
+        android:textColor="@color/white"
+        android:textSize="40px" />
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbtnwhite"
+        android:textColor="@color/black"
+        android:fontFamily="@font/worksans"
+        android:textSize="40px"
+        android:layout_below="@+id/LoginButton"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>

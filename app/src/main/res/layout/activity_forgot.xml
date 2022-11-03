@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forgot">
+
+    <ImageView
+        android:id="@+id/frgt"
+        android:layout_width="25dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrowback"  />
+
+    <TextView
+        android:id="@+id/txtvw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frgt"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/worksans"
+        android:paddingLeft="60dp"
+        android:text="Please Enter Your Email" />
+
+    <EditText
+        android:id="@+id/Email_frgt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtvw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundbtnwhite"
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/resetpass"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Email_frgt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/worksans"
+        android:text="Reset your password"
+        android:textColor="@color/white"
+        android:textSize="25px"
+
+        />
+
+</RelativeLayout>
