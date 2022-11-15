@@ -1,9 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UserDashboard">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/idviw"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/dashboardtxt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/worksans"
+        android:paddingLeft="30dp"
+        android:paddingTop="35dp"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idviw"
+        android:id="@+id/compi"
+        android:fontFamily="@font/worksans"
+        android:text="Complete Your Profile"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="30dp"
+        />
+
+    <TextView
+        android:id="@+id/preferr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compi"
+        android:fontFamily="@font/worksans"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp"
+        android:text="Please Enter Preference"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        android:textSize="18dp"
+
+        />
+
+    <EditText
+        android:id="@+id/foodpref"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/preferr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/roundbtnwhite"
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="VEG / NONVEG ?"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="13dp" />
+
+    <EditText
+        android:id="@+id/familyname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/foodpref"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbtnwhite"
+        android:defaultFocusHighlightEnabled="true"
+        android:hint="Family Name"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="13dp" />
+
+
+
+    <Button
+        android:id="@+id/complete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/familyname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/worksans"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textSize="40px"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/loaderrevdashboard"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/familyname"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progrss_bg" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

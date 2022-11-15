@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -36,6 +37,7 @@ public class Forgot extends AppCompatActivity {
 
         Intent intent = new Intent(Forgot.this, Login.class);
         startActivity(intent);
+        Animatoo.animateSlideRight(Forgot.this);
         onPause();
     }
 
@@ -52,8 +54,9 @@ public class Forgot extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Forgot.this,LoginRegister.class);
+                Intent intent=new Intent(Forgot.this,Login.class);
                 startActivity(intent);
+                Animatoo.animateSlideRight(Forgot.this);
                 finish();
             }
         });

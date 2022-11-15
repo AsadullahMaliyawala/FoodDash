@@ -109,6 +109,24 @@
         android:text="Forgot Password?"
         android:textColor="@color/black" />
 
+    <RelativeLayout
+        android:id="@+id/loaderrevlogin"
+        android:visibility="invisible"
+        android:layout_above="@id/forgot_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password_lgn"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progrss_bg" />
+    </RelativeLayout>
+
 
 
 </RelativeLayout>

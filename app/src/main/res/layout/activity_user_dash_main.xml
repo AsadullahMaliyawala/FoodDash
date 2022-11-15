@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDashMain">
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/idviw2"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        />
+
+
+
+    <TextView
+        android:id="@+id/dashboardtxt2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/worksans"
+        android:paddingLeft="30dp"
+        android:paddingTop="35dp"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/compi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idviw2"
+        android:fontFamily="@font/worksans"
+        android:padding="30dp"
+        android:text="My FoodDash"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/family_btn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compi"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option_btn"
+        >
+
+        <ImageView
+            android:id="@+id/famimg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/picfam" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/famimg"
+            android:fontFamily="@font/worksans"
+            android:paddingTop="5dp"
+            android:paddingBottom="6dp"
+            android:text="Add Friends"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/event_btn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compi"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option_btn"
+        android:layout_toEndOf="@+id/family_btn"
+        >
+
+        <ImageView
+            android:id="@+id/famimg2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:src="@drawable/events_img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/famimg2"
+            android:fontFamily="@font/worksans"
+            android:paddingTop="5dp"
+            android:paddingBottom="6dp"
+            android:text="Add Events"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/todo_list"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compi"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option_btn"
+        android:layout_toEndOf="@+id/event_btn"
+        >
+
+        <ImageView
+            android:id="@+id/famimg3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="3dp"
+            android:src="@drawable/todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/famimg3"
+            android:fontFamily="@font/worksans"
+            android:paddingTop="5dp"
+            android:paddingBottom="6dp"
+            android:text="To-do"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/show_events"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_btn"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option_btn"
+        android:layout_marginTop="30dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/famimg_event"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:src="@drawable/events_img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/famimg_event"
+            android:fontFamily="@font/worksans"
+            android:paddingTop="5dp"
+            android:paddingBottom="6dp"
+            android:text="My Events"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/family_show"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_btn"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option_btn"
+        android:layout_toEndOf="@+id/show_events"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/famimg5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/picfam" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/famimg5"
+            android:fontFamily="@font/worksans"
+            android:paddingTop="5dp"
+            android:paddingBottom="6dp"
+            android:text="My Friends"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/invites"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_btn"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option_btn"
+        android:layout_toEndOf="@+id/family_show"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/famimg4"
+            android:layout_width="match_parent"
+            android:padding="6dp"
+            android:layout_height="50dp"
+            android:src="@drawable/invite" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/famimg4"
+            android:fontFamily="@font/worksans"
+            android:paddingTop="5dp"
+            android:paddingBottom="6dp"
+            android:text="Invites"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

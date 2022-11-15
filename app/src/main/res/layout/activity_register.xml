@@ -62,6 +62,7 @@
         android:layout_marginTop="10dp"
         android:textColor="@color/red"
         />
+
     <EditText
         android:id="@+id/Email_reg"
         android:layout_width="250dp"
@@ -120,6 +121,22 @@
 
         />
 
+    <RelativeLayout
+        android:id="@+id/loaderrev"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passerr_reg"
+        android:layout_marginTop="70dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progrss_bg" />
+    </RelativeLayout>
 
 
 </RelativeLayout>

@@ -3,16 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/drawable/imageprofile.xml" value="0.1875" />
+        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/drawable/option_btn.xml" value="0.1345" />
+        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/drawable/progrss_bg.xml" value="0.134" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/drawable/round_btn.xml" value="0.21" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/drawable/roundbtnwhite.xml" value="0.21" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_forgot.xml" value="0.1287037037037037" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_forgotpass.xml" value="0.18" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_intoductory.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_login.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_login.xml" value="0.67" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_login_register.xml" value="0.1287037037037037" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_main.xml" value="0.11145833333333334" />
-        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_register.xml" value="0.16" />
+        <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_user_dash_main.xml" value="0.33" />
         <entry key="..\:/Users/AA/AndroidStudioProjects/FoodDash/app/src/main/res/layout/activity_user_dashboard.xml" value="0.1956521739130435" />
       </map>
     </option>

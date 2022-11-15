@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
 public class Intoductory extends AppCompatActivity {
 
@@ -32,6 +33,7 @@ public class Intoductory extends AppCompatActivity {
             public void run() {
                 Intent intent=new Intent(Intoductory.this, com.example.fooddash.LoginRegister.class);
                 startActivity(intent);
+                Animatoo.animateSlideUp(Intoductory.this);
                 finish();
             }
         },SPLASH_SCREEN);

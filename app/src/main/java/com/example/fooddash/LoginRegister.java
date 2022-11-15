@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class LoginRegister extends AppCompatActivity {
 
     Button btnlogin, btnregister;
@@ -24,6 +26,7 @@ public class LoginRegister extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(LoginRegister.this,Register.class);
                 startActivity(intent);
+                Animatoo.animateSlideLeft(LoginRegister.this);
                 finish();
             }
         });
@@ -32,6 +35,7 @@ public class LoginRegister extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(LoginRegister.this,Login.class);
                 startActivity(intent);
+                Animatoo.animateSlideLeft(LoginRegister.this);
                 finish();
             }
         });
